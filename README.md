@@ -21,4 +21,4 @@ This dataset contains 4898 entries and 12 attributes related to quality of wine.
 
 This project has been entirely completed in Jupyter IDE with Python 3.8.5 and the model has been trained using scikit-learn framework.
 
-Libraries used: Pandas, NumPy, Matplotlib and Seaborn ghghhgghggh
+Libraries used: Pandas, NumPy, Matplotlib and Seaborn
