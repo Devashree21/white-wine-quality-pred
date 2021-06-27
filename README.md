@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+# stroke-prediction-machine-learning
+machine learning model for white wine quality prediction 
 
-You can use the [editor on GitHub](https://github.com/Devashree21/white-wine-quality-pred/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Here is a short FAQ about this repository**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**1) What is this repository about?**
 
-### Markdown
+This repository is contains a Machine Learning model for stroke prediction.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It includes the jupyter notebook (.ipynb), .csv file and a readme.
 
-```markdown
-Syntax highlighted code block
+**2) Which dataset has been used and where to find it?**
 
-# Header 1
-## Header 2
-### Header 3
+The actual dataset used here is from kaggle
+https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 
-- Bulleted
-- List
+**3) What does the dataset contain?**
 
-1. Numbered
-2. List
+This dataset contains 5110 entries and 12 attributes related to brain health.
 
-**Bold** and _Italic_ and `Code` text
+**4) Which type of ML model is it and what has been the approach to build it?**
 
-[Link](url) and ![Image](src)
-```
+This is a classification type of ML model. Initially an EDA has been done to understand the features and later different ML algorithms have been applied to train the model. Top 2 algorithms with accuracy >75% were selected and the model has been cross-validated on these.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Next, as the dataset has some outliers for age attribute, these have been removed and the model has been trained & cross-validated with Random Forest Classifier to check if the model reliability can be improved.
 
-### Jekyll Themes
+**5) Which tool and which libraries have been used in this project?**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Devashree21/white-wine-quality-pred/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This project has been entirely completed in Jupyter IDE with Python 3.8.5 and the model has been trained using scikit-learn framework.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Libraries used: Pandas, NumPy, Matplotlib and Seaborn
